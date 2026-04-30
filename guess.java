@@ -20,7 +20,16 @@ public class guess {
                                 "3. Hard (3 chances)\n");
             System.out.println("Enter Your choice:  ");
             choice = sc.nextInt();
-            if(choice == 1)
+            if(choice == 1){
+                System.out.println("Great! You have selected the Easy difficuly level.");
+            }else if(choice == 2){
+                System.out.println("Great! You have selected the Medium difficuly level.");
+            }else if(choice == 3){
+                System.out.println("Great! You have selected the Difficult difficuly level.");
+            }else{
+                System.out.println("Invalid Choice!!");
+            }
+            System.out.println("Let's Start the game!");
         }
     }
 }
